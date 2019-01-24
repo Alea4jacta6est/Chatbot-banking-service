@@ -5,7 +5,7 @@
 ## Features
 - Intent analysis and the ability to save all the entities (and recognize them) during the session
 - Communication on banking topics such as mortgages, deposit accounts and credit cards
-- Custom actions that can form queries from user messages and return the documents by index and query
+- Custom actions that can form queries from user messages and return the documents by index and query using ElasticSearch
 
 ## 1. Download the repository and install everything from requirements.txt
 ## 2. Use the next command to launch the bot in your console:
