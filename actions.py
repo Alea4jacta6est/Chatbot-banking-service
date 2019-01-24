@@ -7,8 +7,8 @@ import requests as rq
 
 
 def get_tokens(text, analyzer="custom_analyzer"):
-    response = rq.get("http://ec2-54-189-217-184.us-west-2.compute.amazonaws.com:9200/sections_text/_analyze", json={"analyzer": analyzer,
-                                                                       "text": text})
+    host = ''
+    response = rq.get(host, json={"analyzer": analyzer, "text": text})
     return list(map(lambda x: x['token'], response.json()['tokens']))
 
 
@@ -28,6 +28,7 @@ def tokens_to_term(weighted_tokens):
 
 
 def search_by_tokens(tokens, query=None, index="sections_defs"):
+    host = ''
     if query:
         body = query
     else:
@@ -39,7 +40,7 @@ def search_by_tokens(tokens, query=None, index="sections_defs"):
             }
         }
 
-    url = "http://ec2-54-189-217-184.us-west-2.compute.amazonaws.com:9200/" + index + "/_search"
+    url = host + index + "/_search"
     response = rq.post(url, json=body)
 
     return response.json()
