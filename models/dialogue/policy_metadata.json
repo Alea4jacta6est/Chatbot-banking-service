@@ -1,0 +1,45 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_open_retail_deposit_account": {
+      "slots": []
+    },
+    "utter_did_that_help": {
+      "slots": []
+    },
+    "utter_can_help": {
+      "slots": []
+    },
+    "utter_open_personal_deposit_account": {
+      "slots": []
+    },
+    "utter_ask_about_mortgage": {
+      "slots": []
+    },
+    "utter_affirmation": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_denial": {
+      "slots": []
+    }
+  },
+  "python": "3.6.7",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190124-102736",
+  "rasa_core": "0.13.0",
+  "tensorflow": "1.12.0",
