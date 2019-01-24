@@ -1,0 +1,623 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "account",
+        "text": "deposit account"
+      },
+      {
+        "intent": "account",
+        "text": "open a personal deposit account"
+      },
+      {
+        "intent": "account",
+        "text": "account"
+      },
+      {
+        "intent": "account",
+        "text": "open an account"
+      },
+      {
+        "intent": "account",
+        "text": "deposit account"
+      },
+      {
+        "intent": "account",
+        "text": "client wants to open an acccount"
+      },
+      {
+        "intent": "account",
+        "text": "help me to find an account"
+      },
+      {
+        "intent": "account",
+        "text": "a version of account"
+      },
+      {
+        "intent": "account",
+        "text": "types of accounts"
+      },
+      {
+        "intent": "account",
+        "text": "show ne types of accoutnt"
+      },
+      {
+        "intent": "account",
+        "text": "show me some types of accounts"
+      },
+      {
+        "intent": "account",
+        "text": "please, tell me about types of accounts"
+      },
+      {
+        "intent": "account",
+        "text": "print info about accounts"
+      },
+      {
+        "intent": "account_retail",
+        "text": "the client needs to open a retail deposit account"
+      },
+      {
+        "intent": "account_personal",
+        "text": "the client needs to open personal account"
+      },
+      {
+        "intent": "account_personal",
+        "text": "open a personal deposit account"
+      },
+      {
+        "intent": "account_personal",
+        "text": "try a personal deposit account"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "thank you, yeah"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "choose a credit card"
+      },
+      {
+        "intent": "credit_card_info",
+        "entities": [
+          {
+            "start": 54,
+            "end": 60,
+            "value": "Ottava",
+            "entity": "CITY"
+          }
+        ],
+        "text": "The client wants to compare Credit Cards available in Ottava"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "Cardholder"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "Travel card"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "Rewards"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "cashback"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "Low Interest"
+      },
+      {
+        "intent": "credit_card_info",
+        "text": "Student Business card"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "none"
+      },
+      {
+        "intent": "deny",
+        "text": "absolutely not"
+      },
+      {
+        "intent": "deny",
+        "text": "you are stupid"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cu"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thanks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you"
+      },
+      {
+        "intent": "gratitude",
+        "text": "you are so helpful!"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thank you very much"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thnks"
+      },
+      {
+        "intent": "gratitude",
+        "text": "thxs"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Terra Nova",
+            "entity": "BRANCH"
+          },
+          {
+            "start": 42,
+            "end": 72,
+            "value": "3679 Westminster Hwy, Richmond",
+            "entity": "ADDRESS"
+          }
+        ],
+        "text": "Terra Nova is my office, it is located in 3679 Westminster Hwy, Richmond"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Chinatown",
+            "entity": "BRANCH"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Toronto",
+            "entity": "CITY"
+          }
+        ],
+        "text": "I'm in Chinatown in Toronto"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 25,
+            "value": "661 University Ave",
+            "entity": "ADDRESS"
+          }
+        ],
+        "text": "I'm at 661 University Ave street"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "161 King St E",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 33,
+            "end": 40,
+            "value": "Toronto",
+            "entity": "CITY"
+          }
+        ],
+        "text": "ok, my address is 161 King St E, Toronto"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 24,
+            "end": 47,
+            "value": "Granville & 70th Avenue",
+            "entity": "BRANCH"
+          }
+        ],
+        "text": "okay, my bank_branch is Granville & 70th Avenue"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Vancouver",
+            "entity": "CITY"
+          },
+          {
+            "start": 18,
+            "end": 35,
+            "value": "1025 W Georgia St",
+            "entity": "ADDRESS"
+          }
+        ],
+        "text": "I'm in Vancouver, 1025 W Georgia St"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "Royal Bank of Trinidad and Tobago",
+            "entity": "BRANCH"
+          }
+        ],
+        "text": "Royal Bank of Trinidad and Tobago"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Monreal",
+            "entity": "CITY"
+          }
+        ],
+        "text": "my office is in Monreal"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Toronto",
+            "entity": "CITY"
+          }
+        ],
+        "text": "Toronto"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "489 Robson St",
+            "entity": "ADDRESS"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Vancouver",
+            "entity": "CITY"
+          }
+        ],
+        "text": "489 Robson St, Vancouver"
+      },
+      {
+        "intent": "learn_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Main Vancouver Royal Centre",
+            "entity": "BRANCH"
+          }
+        ],
+        "text": "Main Vancouver Royal Centre"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "a new home",
+            "entity": "property"
+          }
+        ],
+        "text": "the client needs a new home"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "a new house",
+            "entity": "property"
+          }
+        ],
+        "text": "the client needs a new house"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 4,
+            "end": 17,
+            "value": "a first house",
+            "entity": "property"
+          }
+        ],
+        "text": "buy a first house"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "a first home",
+            "entity": "property"
+          }
+        ],
+        "text": "a first home"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "first home",
+            "entity": "property"
+          }
+        ],
+        "text": "first home buying"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "first flat",
+            "entity": "property"
+          }
+        ],
+        "text": "first flat"
+      },
+      {
+        "intent": "mortgage_first",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "first flat",
+            "entity": "property"
+          }
+        ],
+        "text": "it will be his first flat"
+      },
+      {
+        "intent": "mortgage_next",
+        "text": "next house buying"
+      },
+      {
+        "intent": "mortgage_next",
+        "text": "buy next home"
+      },
+      {
+        "intent": "mortgage_next",
+        "text": "he wants to buy another flat"
+      },
+      {
+        "intent": "mortgage_next",
+        "text": "he needs another home"
+      },
+      {
+        "intent": "mortgage_next",
+        "text": "she want to buy the second flat"
+      },
+      {
+        "intent": "mortgage_next",
+        "text": "he needs a mortgage"
+      },
+      {
+        "intent": "mortgage_renewal",
+        "text": "renew mortgage"
+      },
+      {
+        "intent": "mortgage_renewal",
+        "text": "mortgage renewal"
+      },
+      {
+        "intent": "mortgage_renewal",
+        "text": "renewal of the mortgage"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "home buying"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "the client needs to buy a home"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "the client wants to buy a house"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "new house"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "residence"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "flat"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "mortgage"
+      },
+      {
+        "intent": "mortgage_start",
+        "text": "homeownership"
+      },
+      {
+        "intent": "mortgage_switching",
+        "text": "switch a bank"
+      },
+      {
+        "intent": "mortgage_switching",
+        "text": "he wants to switch from a bank to RBC"
+      },
+      {
+        "intent": "mortgage_switching",
+        "text": "transfer mortgage"
+      },
+      {
+        "intent": "mortgage_switching",
+        "text": "mortgage transferring"
+      },
+      {
+        "intent": "order_credit_card",
+        "text": "I want to order a credit card"
+      },
+      {
+        "intent": "order_credit_card",
+        "text": "What form should I fill in to get a credit card"
+      },
+      {
+        "intent": "order_credit_card",
+        "text": "card creation"
+      },
+      {
+        "intent": "order_credit_card",
+        "text": "form to open a new card"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
