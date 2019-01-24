@@ -11,11 +11,11 @@
 ## 2. Use the next command to launch the bot in your console:
 make launch 
 *(don't forget to do it from the folder RASA_banking_chatbot)
-## 3. If you want to try interactive learning:
+## 3. Interactive learning
 make interactive
-## 4. To get graph visualization you should do the following:
+## 4. Graph visualization
 make visualize
-## 5. Activation of actions can be done with:
+## 5. Activation of actions
 make activate_actions
 *point your host in the code actions.py to get access to your ElasticSearch server
 
