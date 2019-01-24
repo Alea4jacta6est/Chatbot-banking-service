@@ -1,0 +1,103 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_affirmation
+- utter_Buying_First_Home
+- utter_choose_type_of_account
+- actions.give_definitions_of_types_of_accounts
+- utter_instruction_to_open_retail_deposit_account
+- utter_open_retail_deposit_account
+- utter_unclear
+- utter_instruction_to_open_personal_deposit_account
+- utter_Renewal_mortgage
+- utter_Switching_to_RBC
+- utter_goodbye
+- utter_did_that_help
+- utter_ask_about_mortgage
+- utter_give_a_link
+- utter_denial
+- utter_mortgage_info
+- utter_can_help
+- utter_show_form_to_order_card
+- utter_types_of_cards
+- utter_open_personal_deposit_account
+- utter_Buying_Next_Home
+entities:
+- ADDRESS
+- CITY
+- BRANCH
+- NAME
+- property
+intents:
+- mortgage_first
+- greet
+- goodbye
+- account
+- account_personal
+- account_retail
+- deny
+- affirm
+- credit_card_info
+- mortgage_start
+- mortgage_next
+- mortgage_renewal
+- mortgage_switching
+- order_credit_card
+- gratitude
+- learn_location
+slots:
+  ADDRESS:
+    type: text
+  BRANCH:
+    type: text
+  CITY:
+    type: text
+  NAME:
+    type: text
+    
+templates:
+  utter_Buying_First_Home:
+  - text: "If the client buys his first home, RBC Homeline Plan can help you: https://www.rbcroyalbank.com/mortgages/rbc-homeline-plan.html?utm_source=rbc_mtg_buy_your_first_home&utm_medium=banner_mpsb&utm_campaign=mtg_publicsite_banners&utm_content=mtg_banner_rbc_homeline_plan You can also offer him to determine the most appropriate mortgage plan using the Homeline Plan Calculator: http://www.rbcroyalbank.com/cgi-bin/mortgage/tools/homeline/homeline-plan-calculator.cgi"
+
+  utter_Buying_Next_Home:
+  - text: "If the client needs to sell his current home and move, follow this link for details: https://www.rbcroyalbank.com/mortgages/buying-next-home.html If the client wants to buy another property, you can show him this video helping to choose the appropriate variant of mortgage: https://youtu.be/IpMou0mD1KY"
+  utter_Renewal_mortgage:
+  - text: "Here's how it works and a quick summary of some things you can do to make it even easier: https://www.rbcroyalbank.com/mortgages/make-the-most-of-renewal.html"
+  - text: 'Asking the client with this list of questions, you can choose the type of mortgage he needs: https://www.rbcroyalbank.com/cgi-bin/mortgage/tools/term-selector/mortgage-selector-tool.cgi'
+  utter_Switching_to_RBC:
+  - text: 'Print an instruction to explain to the client how to transfer just in 3 easy steps: https://www.rbcroyalbank.com/mortgages/transferring-mortgage-to-rbc.html'
+  utter_affirmation:
+  - text: "Your small support could accomplish a big dream!"
+  utter_ask_about_mortgage:
+  - text: "Does the client wants to buy his first/next home, switch to RBC his current mortgage or just renew it?"
+  utter_can_help:
+  - text: "How can I help you?"
+  utter_choose_type_of_account:
+  - text: "What type of account do you need?"
+  utter_denial:
+  - text: "I'm sorry, I'd like to be helpful, can you ask me again?"
+  utter_did_that_help:
+  - text: "Did that help you?"
+  utter_give_a_link:
+  - text: 'Here is a link that can help you: https://laws-lois.justice.gc.ca/eng/acts/B-1.01/page-72.html#docCont'
+  utter_goodbye:
+  - text: "Bye"
+  utter_greet:
+  - text: "Hey! Point your office or city, please."
+  utter_instruction_to_open_personal_deposit_account:
+  - text: 'You can open a personal deposit account following next steps:'
+  utter_instruction_to_open_retail_deposit_account:
+  - text: 'You can open a retail deposit account following next steps:'
+  utter_mortgage_info:
+  - text: "Look at some details about morgage https://www.rbcroyalbank.com/mortgages/index.html"
+  utter_open_personal_deposit_account:
+  - text: "Do you want to open a personal deposit account?"
+  utter_open_retail_deposit_account:
+  - text: "Do you want to open a low-fee retail deposit account?"
+  utter_show_form_to_order_card:
+  - text: "If the client decided what card he needs you should ask him to register (if he hasn't done it yet) and to fill in an application at the website: https://apps.royalbank.com/uaw0/iao/apply/cardapppid1=rewards_plus&ASC=3D0003&_ga=2.100805576.856143170.1547818568-363705338.1547818568#/main/areYouClient"
+  utter_types_of_cards:
+  - text: 'You can offer to choose a card from this list of credit card categories: https://www.rbcroyalbank.com/credit-cards/all-credit-cards.html#/all-cards'
+  utter_unclear:
+  - text: "I am not sure what you are aiming for."
