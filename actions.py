@@ -54,12 +54,6 @@ def get_keywords(text):
     return keywords
 
 
-def search_through_elastic(query):
-    es = Elasticsearch(hosts='http://ec2-54-189-217-184.us-west-2.compute.amazonaws.com/')
-    res = es.search(index="sections_defs", body=query)
-    return res
-
-
 class ActionSearchElastic(Action):
 
     def name(self):
