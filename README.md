@@ -9,15 +9,20 @@
 
 ## 1. Download the repository and install everything from requirements.txt (pip install -r requirements.txt)
 *For RASA NLU:
+
       git clone https://github.com/RasaHQ/rasa_nlu.git
       cd rasa_nlu
       pip install -r requirements.txt
       pip install -e .
+      
 Spacy:
+
       pip install rasa_nlu[spacy]
       python -m spacy download en_core_web_md
       python -m spacy link en_core_web_md en
+      
 RASA Core:
+
       pip install rasa_core
     
 ## 2. Use the next command to launch the bot in your console:
