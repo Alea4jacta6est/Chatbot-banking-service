@@ -1,6 +1,6 @@
 # RASA banking chatbot
 
- <img src="https://journalbitcoin.com/wp-content/uploads/2019/01/Chatbot-for-Banking-Market.png" width="500" height="300">
+ <img src="http://www.netalogue.com/wp-content/uploads/2017/03/chatbot.png" width="500" height="300">
 
 ## Features
 - Intent analysis and the ability to save all the entities (and recognize them) during the session
