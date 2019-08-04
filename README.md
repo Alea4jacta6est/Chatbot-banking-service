@@ -1,4 +1,4 @@
-# Rasa banking chatbot
+# Banking chatbot (Rasa framework-based)
 
  <img src="http://www.netalogue.com/wp-content/uploads/2017/03/chatbot.png" width="500" height="300">
 
