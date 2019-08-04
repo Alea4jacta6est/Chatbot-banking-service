@@ -36,6 +36,7 @@ make interactive
 make visualize
 ## 5. Activation of actions
 make activate_actions
+
 *point your host in the code actions.py to get access to your ElasticSearch server
 
 You are welcome to broaden the bot by adding actions and intents and forming scenarios of communication in stories.md file.
