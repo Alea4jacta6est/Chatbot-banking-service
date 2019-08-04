@@ -28,14 +28,14 @@ RASA Core:
       pip install rasa_core
     
 ## 2. Use the next command to launch the bot in your console:
-make launch 
+      make launch 
 *(don't forget to do it from the folder RASA_banking_chatbot)
 ## 3. Interactive learning
-make interactive
+      make interactive
 ## 4. Graph visualization
-make visualize
+      make visualize
 ## 5. Activation of actions
-make activate_actions
+      make activate_actions
 
 *point your host in the code actions.py to get access to your ElasticSearch server
 
